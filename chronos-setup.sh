@@ -178,9 +178,9 @@ fi
 #Installing Daemon
 cd ~
 mkdir ~/MasterTrepcoScript/trepco
-wget https://github.com/TREPofficial/trepco/releases/download/1.0.1/trepco-1.0.1-ubuntu-compiled-16.04.tar.gz
-tar -xzf trepco-1.0.1-ubuntu-compiled-16.04.tar.gz -C ~/MasterTrepcoScript/trepco
-rm -rf trepco-1.0.1-ubuntu-compiled-16.04.tar.gz
+wget https://github.com/trepcorick/trepco/releases/download/V.1.1.1/trepco-1.1.1-ubuntu-16.04-compiled.tar.gz
+tar -xzf trepco-1.1.1-ubuntu-16.04-compiled.tar.gz -C ~/MasterTrepcoScript/trepco
+rm -rf trepco-1.1.1-ubuntu-16.04-compiled.tar.gz
 
   stop_daemon
 
