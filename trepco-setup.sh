@@ -205,6 +205,7 @@ if [ -z $genkey ]; then
     cat <<EOF > ~/.trepco/trepco.conf
 rpcuser=$rpcuser
 rpcpassword=$rpcpassword
+rpcport=$RPC
 EOF
 
     sudo chmod 755 -R ~/.trepco/trepco.conf
