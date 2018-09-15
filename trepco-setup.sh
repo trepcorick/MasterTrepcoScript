@@ -15,8 +15,8 @@ YELLOW='\033[1;33m'
 NC='\033[0m' # No Color
 
 #TCP port
-PORT=25001
-RPC=25002
+PORT=27001
+RPC=27002
 
 #Clear keyboard input buffer
 function clear_stdin { while read -r -t 0; do read -r; done; }
